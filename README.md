@@ -1,22 +1,3 @@
-<div align="center">
-  <a href="https://ko-fi.com/ilyamiro">
-    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" />
-  </a>
-</div>
-
-<div align="center">
-  <img src="docs/assets/banner.png" alt="Serpantinum" width="850" />
-</div>
-
-## Previews
-
-| | |
-|---|---|
-| ![Preview 1](docs/assets/previews/preview_1.png) | ![Preview 2](docs/assets/previews/preview_2.png) |
-| ![Preview 3](docs/assets/previews/preview_3.png) | ![Preview 4](docs/assets/previews/preview_4.png) |
-
----
-
 ## Installation
 
 > [!IMPORTANT]
@@ -152,7 +133,6 @@ sudo nixos-rebuild switch --flake .
 ```
 
 > **Note:** The automatic installer handles compositor integration on standard distributions. On NixOS / Home Manager, you must manually integrate compositor configs.
-> Sample configs, autostart entries, and keybindings for supported window managers and compositors are available in the [compositors](https://github.com/ilyamiro/serpantinum/tree/master/compositors) directory.
 
 
 #### Required autostart
@@ -188,4 +168,3 @@ To run the shell, launch `serpantinumd start`
 Copyright (C) 2026 Illia Miroshnichenko
 
 This project is licensed under the GNU Affero General Public License version 3, or (at your option) any later version. See the [LICENSE.md](LICENSE.md) file for the full license text.
-
